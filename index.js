@@ -3,7 +3,7 @@
 	let status = "";
 	result = parseInt(gpa*25);
 
-	if (result<=100) {
+	if (result<=91) {
 		status = "A+";
 	}else if (result<=81) {
 		status = "A";
