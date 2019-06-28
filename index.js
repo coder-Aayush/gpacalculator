@@ -3,23 +3,23 @@
 	let status = "";
 	result = parseInt(gpa*25);
 
-	if (result<=100 && result>=90) {
+	if (result<=100) {
 		status = "A+";
-	}else if (result<=80 && result>=70) {
+	}else if (result<=81) {
 		status = "A";
-	}else if (result<=70 && result>=60) {
+	}else if (result<=71) {
 		status = "B+";
-	}else if (result<=60 && result>=50) {
+	}else if (result<=61) {
 		status = "B";
-	}else if (result<=50 && result>=40) {
+	}else if (result<=51) {
 		status = "C+";
-	}else if (result<=40 && result>=30) {
+	}else if (result<=41) {
 		status = "C";
-	}else if (result<=30 && result>=20) {
+	}else if (result<=31) {
 		status = "D+";
-	}else if (result<=20 && result>=10) {
+	}else if (result<=21) {
 		status = "Your Grade is D";
-	}else if (result<=10 && result>=0) {
+	}else if (result<=11) {
 		status = "E";
 	}else if (gpa<=parseFloat(4.1)) {
 		status = "Enter Correct 'GPA'"
